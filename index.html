@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Manipulation</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-Ceufr3tQ.css">
+</head>
+<body>
+  <header>
+    <h1>JavaScript DOM Playground</h1>
+    <p id="subtitle">Learn how JavaScript can manipulate the DOM</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Text Manipulation</h2>
+      <p id="dynamic-text">This text will change when you click the button</p>
+      <button id="change-text-btn" class="btn">Change Text</button>
+    </section>
+
+    <section class="card">
+      <h2>Style Manipulation</h2>
+      <div id="style-box" class="box">
+        <p>This box will change style</p>
+      </div>
+      <div class="controls">
+        <button id="change-color-btn" class="btn">Change Color</button>
+        <button id="change-size-btn" class="btn">Change Size</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Element Manipulation</h2>
+      <div id="items-container">
+        <p>Current items:</p>
+        <ul id="item-list">
+          <li>Initial item 1</li>
+          <li>Initial item 2</li>
+        </ul>
+      </div>
+      <div class="controls">
+        <input type="text" id="new-item-input" placeholder="Enter new item">
+        <button id="add-item-btn" class="btn">Add Item</button>
+        <button id="remove-item-btn" class="btn btn-danger">Remove Last Item</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created with JavaScript DOM Manipulation</p>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/textManager.js"></script>
+  <script src="js/styleManager.js"></script>
+  <script src="js/elementManager.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
